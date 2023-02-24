@@ -1,5 +1,3 @@
-import './ProductCategory.scss';
-
 function ProductCategory({ content }) {
   const styling = {
     letterSpacing: '4px',

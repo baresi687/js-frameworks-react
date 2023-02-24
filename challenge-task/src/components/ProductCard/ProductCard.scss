@@ -3,11 +3,11 @@ $neutral-color-white: hsl(0, 0%, 100%);
 .card {
   border-radius: 10px;
   overflow: hidden;
-}
 
-.card-details {
-  background-color: $neutral-color-white;
-  padding: 1.5rem;
+  .card-details {
+    background-color: $neutral-color-white;
+    padding: 1.5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -17,9 +17,9 @@ $neutral-color-white: hsl(0, 0%, 100%);
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 
-  .card-details {
-    padding: 2rem;
+    .card-details {
+      padding: 2rem;
+    }
   }
 }

@@ -5,9 +5,11 @@ $primary-color-dark: hsl(158, 36%, 37%);
   flex-direction: row;
   align-items: center;
   gap: 1rem;
+
   h1 {
     color: $primary-color-dark;
   }
+
   p {
     text-decoration: line-through;
   }
