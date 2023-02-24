@@ -1,0 +1,18 @@
+$primary-color-cream: hsl(30, 38%, 92%);
+$neutral-color-very-dark-blue: hsl(212, 21%, 14%);
+
+:root {
+  font-family: 'Fraunces', 'Montserrat', serif;
+  background-color: $primary-color-cream;
+  color: $neutral-color-very-dark-blue;
+  line-height: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,17 @@
+$primary-color-dark: hsl(158, 36%, 37%);
+$neutral-color-white: hsl(0, 0%, 100%);
+
+.cart-btn {
+  font-family: 'Montserrat', serif;
+  font-size: 14px;
+  font-weight: 700;
+  width: 100%;
+  padding: 1rem 0;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: $primary-color-dark;
+  color: $neutral-color-white;
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+}
