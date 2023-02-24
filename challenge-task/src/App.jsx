@@ -1,11 +1,11 @@
 import './App.scss';
-import Card from './components/Card.jsx';
+import ProductCard from './components/ProductCard/ProductCard.jsx';
 import cardImageMobile from './assets/image-product-mobile.jpg';
 import cardImageDesktop from './assets/image-product-desktop.jpg';
 function App() {
   return (
     <div className="App">
-      <Card
+      <ProductCard
         srcMobile={cardImageMobile}
         srcDesktop={cardImageDesktop}
         altText="Perfume"

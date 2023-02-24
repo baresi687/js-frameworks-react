@@ -1,4 +1,4 @@
-import './Card.scss';
+import './ProductCard.scss';
 import Image from './Image.jsx';
 import ProductCategory from './ProductCategory.jsx';
 import Heading from './Heading.jsx';
@@ -6,7 +6,7 @@ import Paragraph from './Paragraph.jsx';
 import Price from './Price.jsx';
 import Button from './Button.jsx';
 
-function Card({ srcMobile, srcDesktop, altText, category, heading, paragraph, price, onSale }) {
+function ProductCard({ srcMobile, srcDesktop, altText, category, heading, paragraph, price, onSale }) {
   return (
     <>
       <div className="card">
@@ -23,4 +23,4 @@ function Card({ srcMobile, srcDesktop, altText, category, heading, paragraph, pr
   );
 }
 
-export default Card;
+export default ProductCard;
