@@ -2,6 +2,8 @@ function Image({ srcMobile, srcDesktop, altText }) {
   const styling = {
     display: 'block',
     width: '100%',
+    height: '100%',
+    objectFit: 'cover'
   };
 
   return (
