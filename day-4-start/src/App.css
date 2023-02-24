@@ -1,2 +1,15 @@
 .App {
 }
+
+.App ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 1rem;
+  list-style: none;
+}
+
+.App ul li {
+  background-color: #3c8067;
+  padding: 1rem;
+}
