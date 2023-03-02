@@ -1,6 +1,6 @@
 import './App.css';
 import {ThemeProvider} from "styled-components";
-import Button from "./compontents/Button";
+import Button, {WarningButton} from "./compontents/Button";
 import PageHeading from "./compontents/PageHeading";
 import Container from "./compontents/layout/Container";
 import Form from "./compontents/form/Form";
@@ -22,6 +22,7 @@ function App() {
           <Input placeholder="City"/>
           <Button color={'darkblue'}>Hello</Button>
           <Button color={'darkred'} padding={'2rem'}>Hello</Button>
+          <WarningButton>Hello</WarningButton>
         </Form>
       </Container>
     </ThemeProvider>

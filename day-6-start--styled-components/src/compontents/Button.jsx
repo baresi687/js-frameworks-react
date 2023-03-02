@@ -12,3 +12,12 @@ const Button = styled.button`
   width: 100%`
 
 export default Button
+
+export const WarningButton = styled(Button)`
+  background-color: lightsalmon;
+  
+  &:hover {
+    background-color: #61dafb;
+  }
+  
+`
