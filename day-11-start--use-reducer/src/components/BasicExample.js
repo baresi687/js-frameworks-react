@@ -5,6 +5,7 @@ const ACTIONS = {
   DECREMENT: 'decrement'
 }
 function reducer(state, action) {
+
   switch (action.type) {
     case ACTIONS.INCREMENT:
       return {count: state.count +1}
@@ -27,9 +28,12 @@ const BasicExample = () => {
 
   return (
     <>
-      <button onClick={decrement}>-</button>
-      <span>{state.count}</span>
-      <button onClick={increment}>+</button>
+     <div>
+       <h2>Basic Example</h2>
+       <button onClick={decrement}>-</button>
+       <span>{state.count}</span>
+       <button onClick={increment}>+</button>
+     </div>
     </>
   );
 };
